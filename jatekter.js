@@ -1,4 +1,4 @@
-import Elem from "../elem.js";
+import Elem from "../tictactoe.js";
 
 
 class JatekTer{

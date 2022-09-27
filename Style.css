@@ -1,21 +1,25 @@
-:root {
-    --palyaMeret: 3;
+main{
+    width: 300px;
 }
 
-main {
-    width: 600px;
-}
-article {
-    display: grid;
-    grid-template-columns: repeat(var(--palyaMeret), 50px);
-    grid-template-rows: repeat(var(--palyaMeret), 50px);
-    grid-gap: 10px;
-}
-article div {
-    background-color: cornsilk;
-    border: 1px solid gray;
+article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.x {
-    background-color: blueviolet;
+article .elemek{
+    background-color: royalblue;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.infopanel{
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    border-radius: 8%;
 }
